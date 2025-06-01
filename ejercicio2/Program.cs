@@ -1,5 +1,4 @@
 using System.IO.Compression;
-
 internal partial class Calculadora
 {
     private static void Main(string[] args)
@@ -97,7 +96,7 @@ internal partial class Calculadora
                 }
                 if (num2 == 0)
                 {
-                    Console.WriteLine("El resultado es:-9999999999999999999999999");
+                    Console.WriteLine("El resultado es:-99999");
                 }else
                 {
                     Console.WriteLine($"El resultado es: {resultado}");
